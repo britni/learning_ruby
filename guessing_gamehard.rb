@@ -81,7 +81,7 @@ end
 
 
 
-  time = Time.new(2016)
+  time = Time.now
   score = calc_ultimate_score(my_number, your_number, time, name)
 
   def_array << calc_ultimate_score(my_number, your_number, time, name)
